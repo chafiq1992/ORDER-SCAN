@@ -1,4 +1,5 @@
-from pydantic import BaseSettings, AnyUrl
+from pydantic_settings import BaseSettings
+from pydantic import AnyUrl
 import base64, json, os, tempfile
 
 
